@@ -6,6 +6,7 @@ Sử dụng Google Script làm API
 2. Cần cấp quyền edit và anonymous để thành API public.
   
 3. Thay đổi URL API trong index.html và addlink.html
+_J2Team_
 
 
 
