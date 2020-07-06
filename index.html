@@ -26,7 +26,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta property="og:url"                content="https://chuyenhuong.github.io/" />
+    <meta property="og:url"                content="https://rutgon.github.io/" />
     <meta property="og:type"               content="Redirection webpage" />
     <meta property="og:title"              content="URL Shorterner for free by thebao.me" />
     <meta property="og:description"        content="URL Shorterner for free by thebao.me" />
@@ -139,7 +139,7 @@
             var url = new URL(url_string);
             var code = url.searchParams.get("i");
             $.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbwUL8VigLf_3QJSlG_RQBu2k-17zL0R0VeA38lg0yxdNylcabkH/exec?type=2&url=' + code,
+                url: 'https://script.google.com/macros/s/1ttV_HElTcYX_QfSazk77-MuYSC9B7Op7zEyAvSuSABTYNGL2sd7Vzhqb/exec?type=2&url=' + code,
                 type: 'GET',
                 success: function(resp){
                     if ( (resp.length > 1) && (resp.includes("http")) ) {
